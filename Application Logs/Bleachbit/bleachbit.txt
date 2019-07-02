@@ -1,0 +1,772 @@
+
+ * IMPORTANT: 17 config files in '/etc/portage' need updating.
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+... done!
+[ebuild  N     ] sys-apps/bleachbit-2.2::gentoo  USE="gtk" PYTHON_TARGETS="python2_7" 0 KiB
+
+Total: 1 package (1 new), Size of downloads: 0 KiB
+
+Would you like to merge these packages? [Yes/No] 
+>>> Verifying ebuild manifests
+
+>>> Emerging (1 of 1) sys-apps/bleachbit-2.2::gentoo
+ * bleachbit-2.2.tar.gz BLAKE2B SHA512 size ;-) ...                      [ ok ]
+>>> Unpacking source...
+>>> Unpacking bleachbit-2.2.tar.gz to /var/tmp/portage/sys-apps/bleachbit-2.2/work
+>>> Source unpacked in /var/tmp/portage/sys-apps/bleachbit-2.2/work
+>>> Preparing source in /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2 ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2 ...
+ * python2_7: running distutils-r1_run_phase distutils-r1_python_compile
+python2.7 setup.py build
+running build
+running build_py
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Windows.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Unix.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/General.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/FileUtilities.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/CleanerML.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Worker.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/CLI.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Memory.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/RecognizeCleanerML.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/WindowsWipe.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/GUI.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Cleaner.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Command.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Diagnostic.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/GuiBasic.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Options.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Special.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/DeepScan.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/GuiPreferences.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Winapp.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Update.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/Action.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+copying bleachbit/__init__.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit
+warning: build_py: byte-compiling is disabled, skipping.
+
+ * python2_7: running distutils-r1_run_phase python_compile_all
+make -j2 -C po local 
+make: Entering directory '/var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2/po'
+* Generating en_AU.mo
+msgfmt --statistics -o en_AU.mo en_AU.po
+* Generating ro.mo
+msgfmt --statistics -o ro.mo ro.po
+260 translated messages311 translated messages.
+.
+* Generating nds.mo
+msgfmt --statistics -o nds.mo nds.po
+* Generating ku.mo
+msgfmt --statistics -o ku.mo ku.po
+45 translated messages, 222 untranslated messages.
+* Generating nn.mo
+msgfmt --statistics -o nn.mo nn.po
+183 translated messages, 36 untranslated messages.
+* Generating ja.mo
+msgfmt --statistics -o ja.mo ja.po
+157 translated messages, 78 untranslated messages.
+* Generating ia.mo
+msgfmt --statistics -o ia.mo ia.po
+253 translated messages, 17 untranslated messages.
+* Generating ug.mo
+msgfmt --statistics -o ug.mo ug.po
+276 translated messages.
+* Generating tr.mo
+57 translated messages, 164 untranslated messages.
+msgfmt --statistics -o tr.mo tr.po
+* Generating fr.mo
+msgfmt --statistics -o fr.mo fr.po
+310 translated messages, 1 untranslated message.
+* Generating sr.mo
+msgfmt --statistics -o sr.mo sr.po
+252 translated messages.
+276 translated messages* Generating pt.mo
+msgfmt --statistics -o pt.mo pt.po
+.
+267 translated messages.
+* Generating da.mo
+* Generating vi.mo
+msgfmt --statistics -o vi.mo vi.po
+msgfmt --statistics -o da.mo da.po
+222 translated messages, 13 untranslated messages.
+* Generating ca.mo
+224 translated messages, 46 untranslated messages.
+msgfmt --statistics -o ca.mo ca.po
+* Generating he.mo
+msgfmt --statistics -o he.mo he.po
+311 translated messages.
+291 translated messages, 20 untranslated messages.
+* Generating si.mo
+msgfmt --statistics -o si.mo si.po
+* Generating sv.mo
+msgfmt --statistics -o sv.mo sv.po
+38 translated messages, 177 untranslated messages.
+* Generating id.mo
+msgfmt --statistics -o id.mo id.po
+308 translated messages, 3 untranslated messages.
+270 translated messages.
+* Generating bg.mo
+msgfmt --statistics -o bg.mo bg.po
+* Generating de.mo
+msgfmt --statistics -o de.mo de.po
+219 translated messages, 2 untranslated messages.
+267 translated messages.
+* Generating nb.mo
+msgfmt --statistics -o nb.mo nb.po
+* Generating my.mo
+msgfmt --statistics -o my.mo my.po
+250 translated messages, 17 untranslated messages.
+132 translated messages, 91 untranslated messages.
+* Generating lt.mo
+* Generating ky.mo
+msgfmt --statistics -o lt.mo lt.po
+msgfmt --statistics -o ky.mo ky.po
+235 translated messages, 13 untranslated messages.
+142 translated messages, 79 untranslated messages.
+* Generating es.mo
+msgfmt --statistics -o es.mo es.po
+311 translated messages.
+* Generating hu.mo
+msgfmt --statistics -o hu.mo hu.po
+* Generating hy.mo
+248 translated messagesmsgfmt --statistics -o hy.mo hy.po
+.
+* Generating et.mo
+msgfmt --statistics -o et.mo et.po
+6 translated messages, 209 untranslated messages.
+222 translated messages, 26 untranslated messages.
+* Generating be.mo
+msgfmt --statistics -o be.mo be.po
+153 translated messages, 123 untranslated messages.
+* Generating fi.mo
+* Generating ar.mo
+msgfmt --statistics -o ar.mo ar.po
+msgfmt --statistics -o fi.mo fi.po
+270 translated messages.
+259 translated messages, 17 untranslated messages.
+* Generating th.mo
+msgfmt --statistics -o th.mo th.po
+* Generating eu.mo
+msgfmt --statistics -o eu.mo eu.po
+221 translated messages.
+252 translated messages, 15 untranslated messages.
+* Generating fa.mo
+msgfmt --statistics -o fa.mo fa.po
+* Generating pl.mo
+msgfmt --statistics -o pl.mo pl.po
+270 translated messages.
+107 translated messages, 120 untranslated messages.
+* Generating en_GB.mo
+msgfmt --statistics -o en_GB.mo en_GB.po
+270 translated messages.
+* Generating cs.mo
+msgfmt --statistics -o cs.mo cs.po
+* Generating hr.mo
+msgfmt --statistics -o hr.mo hr.po
+270 translated messages.
+267 translated messages.
+* Generating eo.mo
+msgfmt --statistics -o eo.mo eo.po
+* Generating ko.mo
+msgfmt --statistics -o ko.mo ko.po
+246 translated messages, 8 untranslated messages.
+* Generating it.mo
+msgfmt --statistics -o it.mo it.po
+275 translated messages.
+* Generating gl.mo
+msgfmt --statistics -o gl.mo gl.po
+165 translated messages, 56 untranslated messages.
+311 translated messages.
+* Generating uk.mo
+msgfmt --statistics -o uk.mo uk.po
+* Generating fo.mo
+msgfmt --statistics -o fo.mo fo.po
+270 translated messages.
+56 translated messages, 116 untranslated messages.
+* Generating hi.mo
+msgfmt --statistics -o hi.mo hi.po
+* Generating lv.mo
+msgfmt --statistics -o lv.mo lv.po
+145 translated messages, 122 untranslated messages.
+33 translated messages, 193 untranslated messages.
+* Generating pt_BR.mo
+msgfmt --statistics -o pt_BR.mo pt_BR.po
+* Generating sl.mo
+msgfmt --statistics -o sl.mo sl.po
+304 translated messages, 7 untranslated messages.
+236 translated messages, 31 untranslated messages.
+* Generating en_CA.mo
+* Generating te.mo
+msgfmt --statistics -o te.mo te.po
+msgfmt --statistics -o en_CA.mo en_CA.po
+112 translated messages, 107 untranslated messages.
+114 translated messages, 146 untranslated messages.
+* Generating ru.mo
+* Generating bs.mo
+msgfmt --statistics -o bs.mo bs.po
+msgfmt --statistics -o ru.mo ru.po
+16 translated messages, 203 untranslated messages.
+262 translated messages, 5 untranslated messages.
+* Generating zh_CN.mo
+msgfmt --statistics -o zh_CN.mo zh_CN.po
+* Generating nl.mo
+msgfmt --statistics -o nl.mo nl.po
+259 translated messages, 5 untranslated messages.
+267 translated messages.
+* Generating sk.mo
+msgfmt --statistics -o sk.mo sk.po
+254 translated messages.
+* Generating ta.mo
+msgfmt --statistics -o ta.mo ta.po
+117 translated messages, 136 untranslated messages.
+* Generating bn.mo
+msgfmt --statistics -o bn.mo bn.po
+* Generating uz.mo
+msgfmt --statistics -o uz.mo uz.po
+248 translated messages, 5 untranslated messages.
+30 translated messages, 281 untranslated messages.
+* Generating zh_TW.mo
+msgfmt --statistics -o zh_TW.mo zh_TW.po
+* Generating af.mo
+msgfmt --statistics -o af.mo af.po
+276 translated messages.
+90 translated messages, 180 untranslated messages.
+* Generating el.mo
+msgfmt --statistics -o el.mo el.po
+* Generating ms.mo
+msgfmt --statistics -o ms.mo ms.po
+261 translated messages, 15 untranslated messages.
+* Generating sq.mo
+msgfmt --statistics -o sq.mo sq.po
+311 translated messages.
+* Generating ast.mo
+msgfmt --statistics -o ast.mo ast.po
+260 translated messages.
+* Generating se.mo
+267 translated messagesmsgfmt --statistics -o se.mo se.po
+.
+49 translated messages, 170 untranslated messages.
+* Copy locally for running without system installation
+for mofile in pt.mo id.mo eo.mo fo.mo te.mo se.mo ru.mo et.mo sk.mo da.mo ky.mo ca.mo sl.mo hu.mo ku.mo es.mo pl.mo th.mo he.mo nl.mo zh_CN.mo uz.mo zh_TW.mo de.mo be.mo gl.mo fi.mo cs.mo en_CA.mo bs.mo ms.mo lt.mo uk.mo lv.mo ro.mo it.mo ia.mo pt_BR.mo el.mo ast.mo ko.mo si.mo nb.mo my.mo eu.mo fr.mo ar.mo nds.mo bn.mo bg.mo ta.mo sq.mo en_AU.mo ja.mo fa.mo tr.mo en_GB.mo hr.mo af.mo nn.mo vi.mo hy.mo sr.mo sv.mo ug.mo hi.mo; do \
+	lang=`basename $mofile .mo`; \
+	mkdir -p ../locale/$lang/LC_MESSAGES/; \
+	cp -lf $mofile ../locale/$lang/LC_MESSAGES/bleachbit.mo; \
+done
+Now you can run cd ..; /usr/bin/python2.7 bleachbit/GUI.py
+make: Leaving directory '/var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2/po'
+>>> Source compiled.
+>>> Test phase [not enabled]: sys-apps/bleachbit-2.2
+
+>>> Install bleachbit-2.2 into /var/tmp/portage/sys-apps/bleachbit-2.2/image category sys-apps
+ * python2_7: running distutils-r1_run_phase python_install
+python2.7 setup.py install --root=/var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7
+running install
+running build
+running build_py
+running install_lib
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages
+creating /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Windows.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Unix.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/General.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/FileUtilities.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/CleanerML.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Worker.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/CLI.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Memory.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/RecognizeCleanerML.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/WindowsWipe.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/GUI.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Cleaner.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Command.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Diagnostic.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/GuiBasic.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Options.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Special.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/DeepScan.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/GuiPreferences.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Winapp.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Update.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/Action.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+copying /var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2-python2_7/lib/bleachbit/__init__.py -> /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Windows.py to Windows.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Unix.py to Unix.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/General.py to General.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/FileUtilities.py to FileUtilities.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/CleanerML.py to CleanerML.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Worker.py to Worker.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/CLI.py to CLI.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Memory.py to Memory.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/RecognizeCleanerML.py to RecognizeCleanerML.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/WindowsWipe.py to WindowsWipe.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/GUI.py to GUI.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Cleaner.py to Cleaner.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Command.py to Command.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Diagnostic.py to Diagnostic.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/GuiBasic.py to GuiBasic.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Options.py to Options.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Special.py to Special.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/DeepScan.py to DeepScan.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/GuiPreferences.py to GuiPreferences.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Winapp.py to Winapp.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Update.py to Update.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/Action.py to Action.pyc
+byte-compiling /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit/__init__.py to __init__.pyc
+writing byte-compilation script '/var/tmp/portage/sys-apps/bleachbit-2.2/temp/tmp_34GQ8.py'
+/usr/bin/python2.7 -OO /var/tmp/portage/sys-apps/bleachbit-2.2/temp/tmp_34GQ8.py
+removing /var/tmp/portage/sys-apps/bleachbit-2.2/temp/tmp_34GQ8.py
+running install_egg_info
+running egg_info
+creating bleachbit.egg-info
+writing bleachbit.egg-info/PKG-INFO
+writing top-level names to bleachbit.egg-info/top_level.txt
+writing dependency_links to bleachbit.egg-info/dependency_links.txt
+writing manifest file 'bleachbit.egg-info/SOURCES.txt'
+reading manifest file 'bleachbit.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'MANIFEST'
+warning: no files found matching 'windows/setup_py2exe.bat'
+writing manifest file 'bleachbit.egg-info/SOURCES.txt'
+Copying bleachbit.egg-info to /var/tmp/portage/sys-apps/bleachbit-2.2/image/_python2.7/usr/lib64/python2.7/site-packages/bleachbit-2.2-py2.7.egg-info
+running install_scripts
+ * python2_7: running distutils-r1_run_phase python_install_all
+make -j2 -C po DESTDIR=/var/tmp/portage/sys-apps/bleachbit-2.2/image install 
+make: Entering directory '/var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2/po'
+echo "* Installing in /var/tmp/portage/sys-apps/bleachbit-2.2/image/usr/share/locale"
+* Installing in /var/tmp/portage/sys-apps/bleachbit-2.2/image/usr/share/locale
+for MO in th.mo uk.mo sk.mo id.mo sq.mo se.mo sr.mo te.mo et.mo ru.mo eo.mo ky.mo sl.mo si.mo ku.mo pl.mo uz.mo sv.mo zh_TW.mo eu.mo bn.mo de.mo gl.mo bs.mo pt.mo en_CA.mo ms.mo es.mo cs.mo hi.mo lv.mo it.mo ro.mo ja.mo ia.mo ug.mo nl.mo ca.mo be.mo pt_BR.mo nds.mo el.mo ko.mo nb.mo fr.mo he.mo my.mo ast.mo zh_CN.mo bg.mo ta.mo en_AU.mo fa.mo da.mo tr.mo en_GB.mo hr.mo af.mo ar.mo hu.mo vi.mo fi.mo nn.mo lt.mo fo.mo hy.mo; do \
+	lang=`basename $MO .mo`; \
+	DST=/var/tmp/portage/sys-apps/bleachbit-2.2/image/usr/share/locale/$lang/LC_MESSAGES/; \
+	mkdir -p $DST; \
+	cp $MO $DST/bleachbit.mo; \
+done
+make: Leaving directory '/var/tmp/portage/sys-apps/bleachbit-2.2/work/bleachbit-2.2/po'
+>>> Completed installing bleachbit-2.2 into /var/tmp/portage/sys-apps/bleachbit-2.2/image
+
+ * Final size of build directory: 7392 KiB (7.2 MiB)
+ * Final size of installed tree:  3572 KiB (3.4 MiB)
+
+
+>>> Installing (1 of 1) sys-apps/bleachbit-2.2::gentoo
+ * checking 228 files for package collisions
+>>> Merging sys-apps/bleachbit-2.2 to /
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/python2.7/
+--- /usr/lib64/python2.7/site-packages/
+>>> /usr/lib64/python2.7/site-packages/bleachbit/
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GuiBasic.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/CleanerML.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GUI.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Worker.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Action.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/__init__.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/General.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/FileUtilities.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Action.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Update.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Command.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Winapp.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Action.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/__init__.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GuiPreferences.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Unix.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/DeepScan.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Memory.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/__init__.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Winapp.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GuiBasic.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/CleanerML.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GUI.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Special.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Special.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Update.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Options.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/DeepScan.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/FileUtilities.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Worker.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Cleaner.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GuiBasic.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Diagnostic.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Command.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GuiPreferences.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Cleaner.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Cleaner.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/General.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GuiPreferences.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Command.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Memory.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/GUI.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/WindowsWipe.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/RecognizeCleanerML.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/WindowsWipe.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Memory.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/CLI.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Windows.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/CLI.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Diagnostic.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Windows.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Worker.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/CleanerML.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Update.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/FileUtilities.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/General.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/WindowsWipe.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Winapp.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/DeepScan.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/CLI.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Options.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/RecognizeCleanerML.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Unix.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Unix.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Special.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/RecognizeCleanerML.pyo
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Options.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Diagnostic.pyc
+>>> /usr/lib64/python2.7/site-packages/bleachbit/Windows.py
+>>> /usr/lib64/python2.7/site-packages/bleachbit-2.2-py2.7.egg-info/
+>>> /usr/lib64/python2.7/site-packages/bleachbit-2.2-py2.7.egg-info/PKG-INFO
+>>> /usr/lib64/python2.7/site-packages/bleachbit-2.2-py2.7.egg-info/dependency_links.txt
+>>> /usr/lib64/python2.7/site-packages/bleachbit-2.2-py2.7.egg-info/SOURCES.txt
+>>> /usr/lib64/python2.7/site-packages/bleachbit-2.2-py2.7.egg-info/top_level.txt
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/bleachbit-2.2/
+>>> /usr/share/doc/bleachbit-2.2/README.md.bz2
+--- /usr/share/applications/
+>>> /usr/share/applications/bleachbit.desktop
+--- /usr/share/locale/
+--- /usr/share/locale/zh_CN/
+--- /usr/share/locale/zh_CN/LC_MESSAGES/
+>>> /usr/share/locale/zh_CN/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/lv/
+--- /usr/share/locale/lv/LC_MESSAGES/
+>>> /usr/share/locale/lv/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/bg/
+--- /usr/share/locale/bg/LC_MESSAGES/
+>>> /usr/share/locale/bg/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/hi/
+--- /usr/share/locale/hi/LC_MESSAGES/
+>>> /usr/share/locale/hi/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/da/
+--- /usr/share/locale/da/LC_MESSAGES/
+>>> /usr/share/locale/da/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/sl/
+--- /usr/share/locale/sl/LC_MESSAGES/
+>>> /usr/share/locale/sl/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/vi/
+--- /usr/share/locale/vi/LC_MESSAGES/
+>>> /usr/share/locale/vi/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ja/
+--- /usr/share/locale/ja/LC_MESSAGES/
+>>> /usr/share/locale/ja/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/cs/
+--- /usr/share/locale/cs/LC_MESSAGES/
+>>> /usr/share/locale/cs/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/se/
+--- /usr/share/locale/se/LC_MESSAGES/
+>>> /usr/share/locale/se/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/fa/
+--- /usr/share/locale/fa/LC_MESSAGES/
+>>> /usr/share/locale/fa/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/hu/
+--- /usr/share/locale/hu/LC_MESSAGES/
+>>> /usr/share/locale/hu/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/en_CA/
+--- /usr/share/locale/en_CA/LC_MESSAGES/
+>>> /usr/share/locale/en_CA/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ko/
+--- /usr/share/locale/ko/LC_MESSAGES/
+>>> /usr/share/locale/ko/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/gl/
+--- /usr/share/locale/gl/LC_MESSAGES/
+>>> /usr/share/locale/gl/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/hr/
+--- /usr/share/locale/hr/LC_MESSAGES/
+>>> /usr/share/locale/hr/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/eu/
+--- /usr/share/locale/eu/LC_MESSAGES/
+>>> /usr/share/locale/eu/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ta/
+--- /usr/share/locale/ta/LC_MESSAGES/
+>>> /usr/share/locale/ta/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/te/
+--- /usr/share/locale/te/LC_MESSAGES/
+>>> /usr/share/locale/te/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/de/
+--- /usr/share/locale/de/LC_MESSAGES/
+>>> /usr/share/locale/de/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/id/
+--- /usr/share/locale/id/LC_MESSAGES/
+>>> /usr/share/locale/id/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/es/
+--- /usr/share/locale/es/LC_MESSAGES/
+>>> /usr/share/locale/es/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/he/
+--- /usr/share/locale/he/LC_MESSAGES/
+>>> /usr/share/locale/he/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/nl/
+--- /usr/share/locale/nl/LC_MESSAGES/
+>>> /usr/share/locale/nl/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/tr/
+--- /usr/share/locale/tr/LC_MESSAGES/
+>>> /usr/share/locale/tr/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/si/
+--- /usr/share/locale/si/LC_MESSAGES/
+>>> /usr/share/locale/si/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/my/
+--- /usr/share/locale/my/LC_MESSAGES/
+>>> /usr/share/locale/my/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/eo/
+--- /usr/share/locale/eo/LC_MESSAGES/
+>>> /usr/share/locale/eo/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/fr/
+--- /usr/share/locale/fr/LC_MESSAGES/
+>>> /usr/share/locale/fr/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/bs/
+--- /usr/share/locale/bs/LC_MESSAGES/
+>>> /usr/share/locale/bs/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ca/
+--- /usr/share/locale/ca/LC_MESSAGES/
+>>> /usr/share/locale/ca/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/sq/
+--- /usr/share/locale/sq/LC_MESSAGES/
+>>> /usr/share/locale/sq/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ug/
+--- /usr/share/locale/ug/LC_MESSAGES/
+>>> /usr/share/locale/ug/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ro/
+--- /usr/share/locale/ro/LC_MESSAGES/
+>>> /usr/share/locale/ro/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/uk/
+--- /usr/share/locale/uk/LC_MESSAGES/
+>>> /usr/share/locale/uk/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ia/
+--- /usr/share/locale/ia/LC_MESSAGES/
+>>> /usr/share/locale/ia/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/sr/
+--- /usr/share/locale/sr/LC_MESSAGES/
+>>> /usr/share/locale/sr/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/hy/
+--- /usr/share/locale/hy/LC_MESSAGES/
+>>> /usr/share/locale/hy/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ms/
+--- /usr/share/locale/ms/LC_MESSAGES/
+>>> /usr/share/locale/ms/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ast/
+--- /usr/share/locale/ast/LC_MESSAGES/
+>>> /usr/share/locale/ast/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/pt/
+--- /usr/share/locale/pt/LC_MESSAGES/
+>>> /usr/share/locale/pt/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/nds/
+--- /usr/share/locale/nds/LC_MESSAGES/
+>>> /usr/share/locale/nds/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/af/
+--- /usr/share/locale/af/LC_MESSAGES/
+>>> /usr/share/locale/af/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/sv/
+--- /usr/share/locale/sv/LC_MESSAGES/
+>>> /usr/share/locale/sv/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/en_GB/
+--- /usr/share/locale/en_GB/LC_MESSAGES/
+>>> /usr/share/locale/en_GB/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ky/
+--- /usr/share/locale/ky/LC_MESSAGES/
+>>> /usr/share/locale/ky/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ru/
+--- /usr/share/locale/ru/LC_MESSAGES/
+>>> /usr/share/locale/ru/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/el/
+--- /usr/share/locale/el/LC_MESSAGES/
+>>> /usr/share/locale/el/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/lt/
+--- /usr/share/locale/lt/LC_MESSAGES/
+>>> /usr/share/locale/lt/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/en_AU/
+--- /usr/share/locale/en_AU/LC_MESSAGES/
+>>> /usr/share/locale/en_AU/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/be/
+--- /usr/share/locale/be/LC_MESSAGES/
+>>> /usr/share/locale/be/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ar/
+--- /usr/share/locale/ar/LC_MESSAGES/
+>>> /usr/share/locale/ar/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/pl/
+--- /usr/share/locale/pl/LC_MESSAGES/
+>>> /usr/share/locale/pl/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/sk/
+--- /usr/share/locale/sk/LC_MESSAGES/
+>>> /usr/share/locale/sk/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/et/
+--- /usr/share/locale/et/LC_MESSAGES/
+>>> /usr/share/locale/et/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/it/
+--- /usr/share/locale/it/LC_MESSAGES/
+>>> /usr/share/locale/it/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/nn/
+--- /usr/share/locale/nn/LC_MESSAGES/
+>>> /usr/share/locale/nn/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/ku/
+--- /usr/share/locale/ku/LC_MESSAGES/
+>>> /usr/share/locale/ku/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/bn/
+--- /usr/share/locale/bn/LC_MESSAGES/
+>>> /usr/share/locale/bn/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/pt_BR/
+--- /usr/share/locale/pt_BR/LC_MESSAGES/
+>>> /usr/share/locale/pt_BR/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/zh_TW/
+--- /usr/share/locale/zh_TW/LC_MESSAGES/
+>>> /usr/share/locale/zh_TW/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/uz/
+--- /usr/share/locale/uz/LC_MESSAGES/
+>>> /usr/share/locale/uz/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/fo/
+--- /usr/share/locale/fo/LC_MESSAGES/
+>>> /usr/share/locale/fo/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/th/
+--- /usr/share/locale/th/LC_MESSAGES/
+>>> /usr/share/locale/th/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/fi/
+--- /usr/share/locale/fi/LC_MESSAGES/
+>>> /usr/share/locale/fi/LC_MESSAGES/bleachbit.mo
+--- /usr/share/locale/nb/
+--- /usr/share/locale/nb/LC_MESSAGES/
+>>> /usr/share/locale/nb/LC_MESSAGES/bleachbit.mo
+>>> /usr/share/bleachbit/
+>>> /usr/share/bleachbit/cleaners/
+>>> /usr/share/bleachbit/cleaners/seamonkey.xml
+>>> /usr/share/bleachbit/cleaners/java.xml
+>>> /usr/share/bleachbit/cleaners/secondlife_viewer.xml
+>>> /usr/share/bleachbit/cleaners/amsn.xml
+>>> /usr/share/bleachbit/cleaners/wine.xml
+>>> /usr/share/bleachbit/cleaners/konqueror.xml
+>>> /usr/share/bleachbit/cleaners/gpodder.xml
+>>> /usr/share/bleachbit/cleaners/google_toolbar.xml
+>>> /usr/share/bleachbit/cleaners/thumbnails.xml
+>>> /usr/share/bleachbit/cleaners/emesene.xml
+>>> /usr/share/bleachbit/cleaners/skype.xml
+>>> /usr/share/bleachbit/cleaners/epiphany.xml
+>>> /usr/share/bleachbit/cleaners/smartftp.xml
+>>> /usr/share/bleachbit/cleaners/chromium.xml
+>>> /usr/share/bleachbit/cleaners/tremulous.xml
+>>> /usr/share/bleachbit/cleaners/vuze.xml
+>>> /usr/share/bleachbit/cleaners/warzone2100.xml
+>>> /usr/share/bleachbit/cleaners/winetricks.xml
+>>> /usr/share/bleachbit/cleaners/filezilla.xml
+>>> /usr/share/bleachbit/cleaners/firefox.xml
+>>> /usr/share/bleachbit/cleaners/xine.xml
+>>> /usr/share/bleachbit/cleaners/nexuiz.xml
+>>> /usr/share/bleachbit/cleaners/recoll.xml
+>>> /usr/share/bleachbit/cleaners/internet_explorer.xml
+>>> /usr/share/bleachbit/cleaners/audacious.xml
+>>> /usr/share/bleachbit/cleaners/x11.xml
+>>> /usr/share/bleachbit/cleaners/gnome.xml
+>>> /usr/share/bleachbit/cleaners/windows_media_player.xml
+>>> /usr/share/bleachbit/cleaners/gwenview.xml
+>>> /usr/share/bleachbit/cleaners/hippo_opensim_viewer.xml
+>>> /usr/share/bleachbit/cleaners/vim.xml
+>>> /usr/share/bleachbit/cleaners/winamp.xml
+>>> /usr/share/bleachbit/cleaners/flash.xml
+>>> /usr/share/bleachbit/cleaners/gftp.xml
+>>> /usr/share/bleachbit/cleaners/paint.xml
+>>> /usr/share/bleachbit/cleaners/liferea.xml
+>>> /usr/share/bleachbit/cleaners/amule.xml
+>>> /usr/share/bleachbit/cleaners/gedit.xml
+>>> /usr/share/bleachbit/cleaners/realplayer.xml
+>>> /usr/share/bleachbit/cleaners/teamviewer.xml
+>>> /usr/share/bleachbit/cleaners/exaile.xml
+>>> /usr/share/bleachbit/cleaners/opera.xml
+>>> /usr/share/bleachbit/cleaners/octave.xml
+>>> /usr/share/bleachbit/cleaners/nautilus.xml
+>>> /usr/share/bleachbit/cleaners/windows_defender.xml
+>>> /usr/share/bleachbit/cleaners/beagle.xml
+>>> /usr/share/bleachbit/cleaners/microsoft_office.xml
+>>> /usr/share/bleachbit/cleaners/vlc.xml
+>>> /usr/share/bleachbit/cleaners/journald.xml
+>>> /usr/share/bleachbit/cleaners/pidgin.xml
+>>> /usr/share/bleachbit/cleaners/adobe_reader.xml
+>>> /usr/share/bleachbit/cleaners/localizations.xml
+>>> /usr/share/bleachbit/cleaners/winzip.xml
+>>> /usr/share/bleachbit/cleaners/mc.xml
+>>> /usr/share/bleachbit/cleaners/google_chrome.xml
+>>> /usr/share/bleachbit/cleaners/google_earth.xml
+>>> /usr/share/bleachbit/cleaners/gl-117.xml
+>>> /usr/share/bleachbit/cleaners/easytag.xml
+>>> /usr/share/bleachbit/cleaners/evolution.xml
+>>> /usr/share/bleachbit/cleaners/libreoffice.xml
+>>> /usr/share/bleachbit/cleaners/winrar.xml
+>>> /usr/share/bleachbit/cleaners/bash.xml
+>>> /usr/share/bleachbit/cleaners/d4x.xml
+>>> /usr/share/bleachbit/cleaners/transmission.xml
+>>> /usr/share/bleachbit/cleaners/windows_explorer.xml
+>>> /usr/share/bleachbit/cleaners/wordpad.xml
+>>> /usr/share/bleachbit/cleaners/links2.xml
+>>> /usr/share/bleachbit/cleaners/sqlite3.xml
+>>> /usr/share/bleachbit/cleaners/tortoisesvn.xml
+>>> /usr/share/bleachbit/cleaners/silverlight.xml
+>>> /usr/share/bleachbit/cleaners/gimp.xml
+>>> /usr/share/bleachbit/cleaners/elinks.xml
+>>> /usr/share/bleachbit/cleaners/waterfox.xml
+>>> /usr/share/bleachbit/cleaners/yahoo_messenger.xml
+>>> /usr/share/bleachbit/cleaners/miro.xml
+>>> /usr/share/bleachbit/cleaners/deepscan.xml
+>>> /usr/share/bleachbit/cleaners/thunderbird.xml
+>>> /usr/share/bleachbit/cleaners/kde.xml
+>>> /usr/share/bleachbit/cleaners/safari.xml
+>>> /usr/share/bleachbit/cleaners/rhythmbox.xml
+>>> /usr/share/bleachbit/cleaners/apt.xml
+>>> /usr/share/bleachbit/cleaners/yum.xml
+>>> /usr/share/bleachbit/cleaners/hexchat.xml
+>>> /usr/share/bleachbit/cleaners/screenlets.xml
+--- /usr/share/pixmaps/
+>>> /usr/share/pixmaps/bleachbit.png
+--- /usr/lib/
+--- /usr/lib/python-exec/
+--- /usr/lib/python-exec/python2.7/
+>>> /usr/lib/python-exec/python2.7/bleachbit
+--- /usr/bin/
+>>> /usr/bin/bleachbit -> ../lib/python-exec/python-exec2
+ * Bleachbit has optional notification support. To enable, please install:
+ * 
+ *   dev-python/notify-python
+>>> sys-apps/bleachbit-2.2 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Recording sys-apps/bleachbit in "world" favorites file...
+ * Messages for package sys-apps/bleachbit-2.2:
+ * Bleachbit has optional notification support. To enable, please install:
+ * 
+ *   dev-python/notify-python
+
+
+>>> Auto-cleaning packages...
+
+>>> No outdated packages were found on your system.
+
+ * GNU info directory index is up-to-date.
+
+ * IMPORTANT: 17 config files in '/etc' need updating.
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+

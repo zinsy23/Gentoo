@@ -1,0 +1,623 @@
+
+ * IMPORTANT: 7 config files in '/etc/portage' need updating.
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+... done!
+[ebuild  N    ~] dev-ruby/afm-0.2.2::gentoo  USE="-doc -test" RUBY_TARGETS="ruby24 -ruby25 -ruby26" 0 KiB
+[ebuild  N    ~] dev-ruby/ascii85-1.0.3::gentoo  USE="-test" RUBY_TARGETS="ruby24 -ruby25 -ruby26" 0 KiB
+[ebuild  N    ~] dev-ruby/hashery-2.1.2::gentoo  USE="-doc -test" RUBY_TARGETS="ruby24 -ruby25 -ruby26" 0 KiB
+[ebuild  N    ~] dev-ruby/ttfunk-1.5.1:1.5::gentoo  USE="-doc -test" RUBY_TARGETS="ruby24 -ruby25 -ruby26" 0 KiB
+[ebuild  N    ~] dev-ruby/ruby-rc4-0.1.5-r2::gentoo  USE="-doc -test" RUBY_TARGETS="ruby24 -ruby25 -ruby26" 0 KiB
+[ebuild  N    ~] dev-ruby/pdf-reader-2.2.0:2::gentoo  USE="-doc -test" RUBY_TARGETS="ruby24 -ruby25 -ruby26" 0 KiB
+
+Total: 6 packages (6 new), Size of downloads: 0 KiB
+
+Would you like to merge these packages? [Yes/No] 
+>>> Verifying ebuild manifests
+
+>>> Emerging (1 of 6) dev-ruby/afm-0.2.2::gentoo
+ * Fetching files in the background.
+ * To view fetch progress, run in another terminal:
+ * tail -f /var/log/emerge-fetch.log
+ * afm-0.2.2.gem BLAKE2B SHA512 size ;-) ...                             [ ok ]
+>>> Unpacking source...
+ * Running unpack phase for all ...
+ * Unpacking .gem file... ...
+ [ ok ]
+ * Uncompressing metadata ...
+ [ ok ]
+ * Unpacking data.tar.gz ...
+ [ ok ]
+>>> Source unpacked in /var/tmp/portage/dev-ruby/afm-0.2.2/work
+>>> Preparing source in /var/tmp/portage/dev-ruby/afm-0.2.2/work ...
+ * Running prepare phase for all ...
+ * Running source copy phase for ruby24 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/dev-ruby/afm-0.2.2/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/dev-ruby/afm-0.2.2/work ...
+ * Running compile phase for all ...
+>>> Source compiled.
+>>> Test phase [not enabled]: dev-ruby/afm-0.2.2
+
+>>> Install afm-0.2.2 into /var/tmp/portage/dev-ruby/afm-0.2.2/image/ category dev-ruby
+ * Running install phase for ruby24 ...
+ * Running install phase for all ...
+ * Running check install phase for ruby24 ...
+>>> Completed installing afm-0.2.2 into /var/tmp/portage/dev-ruby/afm-0.2.2/image/
+
+ * Final size of build directory: 148 KiB
+ * Final size of installed tree:   68 KiB
+
+
+>>> Installing (1 of 6) dev-ruby/afm-0.2.2::gentoo
+ * checking 3 files for package collisions
+>>> Merging dev-ruby/afm-0.2.2 to /
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/ruby/
+--- /usr/lib64/ruby/gems/
+--- /usr/lib64/ruby/gems/2.4.0/
+--- /usr/lib64/ruby/gems/2.4.0/specifications/
+>>> /usr/lib64/ruby/gems/2.4.0/specifications/afm-0.2.2.gemspec
+--- /usr/lib64/ruby/gems/2.4.0/gems/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/afm-0.2.2/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/afm-0.2.2/lib/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/afm-0.2.2/lib/afm.rb
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/afm-0.2.2/
+>>> /usr/share/doc/afm-0.2.2/README.rdoc.bz2
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+ * QA Notice: .desktop files with MimeType= were found installed
+ * but desktop mimeinfo cache has not been updated:
+ *   /usr/share/applications/libreoffice-base.desktop
+ *   /usr/share/applications/libreoffice-writer.desktop
+ *   /usr/share/applications/libreoffice-draw.desktop
+ *   /usr/share/applications/libreoffice-startcenter.desktop
+ *   /usr/share/applications/libreoffice-impress.desktop
+ *   /usr/share/applications/libreoffice-calc.desktop
+ *   /usr/share/applications/libreoffice-math.desktop
+ *   /usr/share/applications/libreoffice-xsltfilter.desktop
+ * Please make sure to call xdg_desktop_database_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+>>> dev-ruby/afm-0.2.2 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Emerging (2 of 6) dev-ruby/ascii85-1.0.3::gentoo
+ * Ascii85-1.0.3.gem BLAKE2B SHA512 size ;-) ...                         [ ok ]
+>>> Unpacking source...
+ * Running unpack phase for all ...
+ * Unpacking .gem file... ...
+ [ ok ]
+ * Uncompressing metadata ...
+ [ ok ]
+ * Unpacking data.tar.gz ...
+ [ ok ]
+>>> Source unpacked in /var/tmp/portage/dev-ruby/ascii85-1.0.3/work
+>>> Preparing source in /var/tmp/portage/dev-ruby/ascii85-1.0.3/work ...
+ * Running prepare phase for all ...
+ * Running prepare phase for all ...
+ * Running source copy phase for ruby24 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/dev-ruby/ascii85-1.0.3/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/dev-ruby/ascii85-1.0.3/work ...
+ * Running compile phase for all ...
+>>> Source compiled.
+>>> Test phase [not enabled]: dev-ruby/ascii85-1.0.3
+
+>>> Install ascii85-1.0.3 into /var/tmp/portage/dev-ruby/ascii85-1.0.3/image/ category dev-ruby
+ * Running install phase for ruby24 ...
+ * Running install phase for all ...
+ * Running check install phase for ruby24 ...
+>>> Completed installing ascii85-1.0.3 into /var/tmp/portage/dev-ruby/ascii85-1.0.3/image/
+
+ * Final size of build directory: 124 KiB
+ * Final size of installed tree:   96 KiB
+
+
+>>> Installing (2 of 6) dev-ruby/ascii85-1.0.3::gentoo
+ * checking 7 files for package collisions
+>>> Merging dev-ruby/ascii85-1.0.3 to /
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/ruby/
+--- /usr/lib64/ruby/gems/
+--- /usr/lib64/ruby/gems/2.4.0/
+--- /usr/lib64/ruby/gems/2.4.0/specifications/
+>>> /usr/lib64/ruby/gems/2.4.0/specifications/Ascii85-1.0.3.gemspec
+--- /usr/lib64/ruby/gems/2.4.0/gems/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/lib/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/lib/ascii85.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/lib/Ascii85/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/lib/Ascii85/version.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/bin/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/Ascii85-1.0.3/bin/ascii85
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/ascii85-1.0.3/
+>>> /usr/share/doc/ascii85-1.0.3/History.txt.bz2
+>>> /usr/share/doc/ascii85-1.0.3/README.md.bz2
+--- /usr/bin/
+>>> /usr/bin/ascii85
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+ * QA Notice: .desktop files with MimeType= were found installed
+ * but desktop mimeinfo cache has not been updated:
+ *   /usr/share/applications/libreoffice-base.desktop
+ *   /usr/share/applications/libreoffice-writer.desktop
+ *   /usr/share/applications/libreoffice-draw.desktop
+ *   /usr/share/applications/libreoffice-startcenter.desktop
+ *   /usr/share/applications/libreoffice-impress.desktop
+ *   /usr/share/applications/libreoffice-calc.desktop
+ *   /usr/share/applications/libreoffice-math.desktop
+ *   /usr/share/applications/libreoffice-xsltfilter.desktop
+ * Please make sure to call xdg_desktop_database_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+>>> dev-ruby/ascii85-1.0.3 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Emerging (3 of 6) dev-ruby/hashery-2.1.2::gentoo
+ * hashery-2.1.2.gem BLAKE2B SHA512 size ;-) ...                         [ ok ]
+>>> Unpacking source...
+ * Running unpack phase for all ...
+ * Unpacking .gem file... ...
+ [ ok ]
+ * Uncompressing metadata ...
+ [ ok ]
+ * Unpacking data.tar.gz ...
+ [ ok ]
+>>> Source unpacked in /var/tmp/portage/dev-ruby/hashery-2.1.2/work
+>>> Preparing source in /var/tmp/portage/dev-ruby/hashery-2.1.2/work ...
+ * Running prepare phase for all ...
+ * Running source copy phase for ruby24 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/dev-ruby/hashery-2.1.2/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/dev-ruby/hashery-2.1.2/work ...
+ * Running compile phase for all ...
+>>> Source compiled.
+>>> Test phase [not enabled]: dev-ruby/hashery-2.1.2
+
+>>> Install hashery-2.1.2 into /var/tmp/portage/dev-ruby/hashery-2.1.2/image/ category dev-ruby
+ * Running install phase for ruby24 ...
+ * Running install phase for all ...
+ * Running check install phase for ruby24 ...
+>>> Completed installing hashery-2.1.2 into /var/tmp/portage/dev-ruby/hashery-2.1.2/image/
+
+ * Final size of build directory: 456 KiB
+ * Final size of installed tree:  196 KiB
+
+
+>>> Installing (3 of 6) dev-ruby/hashery-2.1.2::gentoo
+ * checking 22 files for package collisions
+>>> Merging dev-ruby/hashery-2.1.2 to /
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/ruby/
+--- /usr/lib64/ruby/gems/
+--- /usr/lib64/ruby/gems/2.4.0/
+--- /usr/lib64/ruby/gems/2.4.0/specifications/
+>>> /usr/lib64/ruby/gems/2.4.0/specifications/hashery-2.1.2.gemspec
+--- /usr/lib64/ruby/gems/2.4.0/gems/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/stash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/association.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/fuzzy_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/casting_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/ini_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/ordered_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/key_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/lru_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/path_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/open_cascade.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/open_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/property_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/core_ext.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/query_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/dictionary.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/crud_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/linked_list.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery/static_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/hashery-2.1.2/lib/hashery.yml
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/hashery-2.1.2/
+>>> /usr/share/doc/hashery-2.1.2/README.md.bz2
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+ * QA Notice: .desktop files with MimeType= were found installed
+ * but desktop mimeinfo cache has not been updated:
+ *   /usr/share/applications/libreoffice-base.desktop
+ *   /usr/share/applications/libreoffice-writer.desktop
+ *   /usr/share/applications/libreoffice-draw.desktop
+ *   /usr/share/applications/libreoffice-startcenter.desktop
+ *   /usr/share/applications/libreoffice-impress.desktop
+ *   /usr/share/applications/libreoffice-calc.desktop
+ *   /usr/share/applications/libreoffice-math.desktop
+ *   /usr/share/applications/libreoffice-xsltfilter.desktop
+ * Please make sure to call xdg_desktop_database_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+>>> dev-ruby/hashery-2.1.2 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Emerging (4 of 6) dev-ruby/ttfunk-1.5.1::gentoo
+ * ttfunk-1.5.1.tar.gz BLAKE2B SHA512 size ;-) ...                       [ ok ]
+>>> Unpacking source...
+ * Running unpack phase for all ...
+>>> Unpacking ttfunk-1.5.1.tar.gz to /var/tmp/portage/dev-ruby/ttfunk-1.5.1/work/all
+>>> Source unpacked in /var/tmp/portage/dev-ruby/ttfunk-1.5.1/work
+>>> Preparing source in /var/tmp/portage/dev-ruby/ttfunk-1.5.1/work ...
+ * Running prepare phase for all ...
+ * Running source copy phase for ruby24 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/dev-ruby/ttfunk-1.5.1/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/dev-ruby/ttfunk-1.5.1/work ...
+ * Running compile phase for all ...
+>>> Source compiled.
+>>> Test phase [not enabled]: dev-ruby/ttfunk-1.5.1
+
+>>> Install ttfunk-1.5.1 into /var/tmp/portage/dev-ruby/ttfunk-1.5.1/image/ category dev-ruby
+ * Running install phase for ruby24 ...
+ * Running install phase for all ...
+ * Running check install phase for ruby24 ...
+>>> Completed installing ttfunk-1.5.1 into /var/tmp/portage/dev-ruby/ttfunk-1.5.1/image/
+
+ * Final size of build directory: 3120 KiB (3.0 MiB)
+ * Final size of installed tree:   268 KiB
+
+
+>>> Installing (4 of 6) dev-ruby/ttfunk-1.5.1::gentoo
+ * checking 44 files for package collisions
+>>> Merging dev-ruby/ttfunk-1.5.1 to /
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/ruby/
+--- /usr/lib64/ruby/gems/
+--- /usr/lib64/ruby/gems/2.4.0/
+--- /usr/lib64/ruby/gems/2.4.0/specifications/
+>>> /usr/lib64/ruby/gems/2.4.0/specifications/ttfunk-1.5.1.gemspec
+--- /usr/lib64/ruby/gems/2.4.0/gems/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/windows_1252.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/unicode.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/mac_roman.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/unicode_8bit.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/base.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset_collection.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/kern/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/kern/format0.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/name.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf/compound.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf/simple.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/hhea.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/simple.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/hmtx.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/maxp.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/sbix.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/head.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/kern.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/loca.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format10.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format04.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format00.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format06.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format12.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/subtable.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/os2.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format10.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format30.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format20.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format40.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/collection.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/encoding/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/encoding/windows_1252.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/encoding/mac_roman.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/resource_file.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/reader.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/table.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/subset.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk/directory.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ttfunk-1.5.1/lib/ttfunk.rb
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/ttfunk-1.5.1/
+>>> /usr/share/doc/ttfunk-1.5.1/CHANGELOG.md.bz2
+>>> /usr/share/doc/ttfunk-1.5.1/README.md.bz2
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+ * QA Notice: .desktop files with MimeType= were found installed
+ * but desktop mimeinfo cache has not been updated:
+ *   /usr/share/applications/libreoffice-base.desktop
+ *   /usr/share/applications/libreoffice-writer.desktop
+ *   /usr/share/applications/libreoffice-draw.desktop
+ *   /usr/share/applications/libreoffice-startcenter.desktop
+ *   /usr/share/applications/libreoffice-impress.desktop
+ *   /usr/share/applications/libreoffice-calc.desktop
+ *   /usr/share/applications/libreoffice-math.desktop
+ *   /usr/share/applications/libreoffice-xsltfilter.desktop
+ * Please make sure to call xdg_desktop_database_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+>>> dev-ruby/ttfunk-1.5.1 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Emerging (5 of 6) dev-ruby/ruby-rc4-0.1.5-r2::gentoo
+ * ruby-rc4-0.1.5.gem BLAKE2B SHA512 size ;-) ...                        [ ok ]
+>>> Unpacking source...
+ * Running unpack phase for all ...
+ * Unpacking .gem file... ...
+ [ ok ]
+ * Uncompressing metadata ...
+ [ ok ]
+ * Unpacking data.tar.gz ...
+ [ ok ]
+>>> Source unpacked in /var/tmp/portage/dev-ruby/ruby-rc4-0.1.5-r2/work
+>>> Preparing source in /var/tmp/portage/dev-ruby/ruby-rc4-0.1.5-r2/work ...
+ * Running prepare phase for all ...
+ * Running source copy phase for ruby24 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/dev-ruby/ruby-rc4-0.1.5-r2/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/dev-ruby/ruby-rc4-0.1.5-r2/work ...
+ * Running compile phase for all ...
+>>> Source compiled.
+>>> Test phase [not enabled]: dev-ruby/ruby-rc4-0.1.5-r2
+
+>>> Install ruby-rc4-0.1.5-r2 into /var/tmp/portage/dev-ruby/ruby-rc4-0.1.5-r2/image/ category dev-ruby
+ * Running install phase for ruby24 ...
+ * Running install phase for all ...
+ * Running check install phase for ruby24 ...
+>>> Completed installing ruby-rc4-0.1.5-r2 into /var/tmp/portage/dev-ruby/ruby-rc4-0.1.5-r2/image/
+
+ * Final size of build directory: 64 KiB
+ * Final size of installed tree:  64 KiB
+
+
+>>> Installing (5 of 6) dev-ruby/ruby-rc4-0.1.5-r2::gentoo
+ * checking 3 files for package collisions
+>>> Merging dev-ruby/ruby-rc4-0.1.5-r2 to /
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/ruby/
+--- /usr/lib64/ruby/gems/
+--- /usr/lib64/ruby/gems/2.4.0/
+--- /usr/lib64/ruby/gems/2.4.0/specifications/
+>>> /usr/lib64/ruby/gems/2.4.0/specifications/ruby-rc4-0.1.5.gemspec
+--- /usr/lib64/ruby/gems/2.4.0/gems/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ruby-rc4-0.1.5/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ruby-rc4-0.1.5/lib/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/ruby-rc4-0.1.5/lib/rc4.rb
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/ruby-rc4-0.1.5-r2/
+>>> /usr/share/doc/ruby-rc4-0.1.5-r2/README.md.bz2
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+ * QA Notice: .desktop files with MimeType= were found installed
+ * but desktop mimeinfo cache has not been updated:
+ *   /usr/share/applications/libreoffice-base.desktop
+ *   /usr/share/applications/libreoffice-writer.desktop
+ *   /usr/share/applications/libreoffice-draw.desktop
+ *   /usr/share/applications/libreoffice-startcenter.desktop
+ *   /usr/share/applications/libreoffice-impress.desktop
+ *   /usr/share/applications/libreoffice-calc.desktop
+ *   /usr/share/applications/libreoffice-math.desktop
+ *   /usr/share/applications/libreoffice-xsltfilter.desktop
+ * Please make sure to call xdg_desktop_database_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+>>> dev-ruby/ruby-rc4-0.1.5-r2 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Emerging (6 of 6) dev-ruby/pdf-reader-2.2.0::gentoo
+ * pdf-reader-2.2.0.tar.gz BLAKE2B SHA512 size ;-) ...                   [ ok ]
+>>> Unpacking source...
+ * Running unpack phase for all ...
+>>> Unpacking pdf-reader-2.2.0.tar.gz to /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/work/all
+>>> Source unpacked in /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/work
+>>> Preparing source in /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/work ...
+ * Running prepare phase for all ...
+ * Running prepare phase for all ...
+ * Running source copy phase for ruby24 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/work ...
+ * Running compile phase for all ...
+>>> Source compiled.
+>>> Test phase [not enabled]: dev-ruby/pdf-reader-2.2.0
+
+>>> Install pdf-reader-2.2.0 into /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/image/ category dev-ruby
+ * Running install phase for ruby24 ...
+ * Running install phase for all ...
+ * Running check install phase for ruby24 ...
+>>> Completed installing pdf-reader-2.2.0 into /var/tmp/portage/dev-ruby/pdf-reader-2.2.0/image/
+
+ * Final size of build directory: 14048 KiB (13.7 MiB)
+ * Final size of installed tree:   1216 KiB ( 1.1 MiB)
+
+
+>>> Installing (6 of 6) dev-ruby/pdf-reader-2.2.0::gentoo
+ * checking 94 files for package collisions
+>>> Merging dev-ruby/pdf-reader-2.2.0 to /
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+--- /usr/
+--- /usr/lib64/
+--- /usr/lib64/ruby/
+--- /usr/lib64/ruby/gems/
+--- /usr/lib64/ruby/gems/2.4.0/
+--- /usr/lib64/ruby/gems/2.4.0/specifications/
+>>> /usr/lib64/ruby/gems/2.4.0/specifications/pdf-reader-2.2.0.gemspec
+--- /usr/lib64/ruby/gems/2.4.0/gems/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/object_stream.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/win_ansi.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/standard.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/mac_expert.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/symbol.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/pdf_doc.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/mac_roman.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encodings/zapf_dingbats.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/cid_widths.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/pages_strategy.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/buffer.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/object_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/text_run.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/standard_security_handler.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/standard_security_handler_v5.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/transformation_matrix.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/encoding.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/glyphlist.txt
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/lzw.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/page_layout.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/error.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/xref.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/glyph_hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Courier-BoldOblique.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Courier-Bold.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Courier.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Helvetica-Oblique.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/ZapfDingbats.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Helvetica-BoldOblique.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Times-Italic.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Times-BoldItalic.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Helvetica.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Times-Bold.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Times-Roman.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Symbol.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Helvetica-Bold.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/afm/Courier-Oblique.afm
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/stream.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/orientation_detector.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/ascii85.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/lzw.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/ascii_hex.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/flate.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/run_length.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/depredict.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/filter/null.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/unimplemented_security_handler.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/cmap.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/resource_methods.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/object_cache.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/form_xobject.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/font.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/register_receiver.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/parser.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/page_state.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/page_text_receiver.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/print_receiver.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/synchronized_cache.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/token.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/null_security_handler.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator/built_in.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator/true_type.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator/type_zero.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator/composite.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/width_calculator/type_one_or_three.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/font_descriptor.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/page.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader/reference.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/reader.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf/hash.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/lib/pdf-reader.rb
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/bin/
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/bin/pdf_callbacks
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/bin/pdf_object
+>>> /usr/lib64/ruby/gems/2.4.0/gems/pdf-reader-2.2.0/bin/pdf_text
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/pdf-reader-2.2.0/
+>>> /usr/share/doc/pdf-reader-2.2.0/CHANGELOG.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/TODO.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/README.md.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/callbacks.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/page_count.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/hash.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/extract_bates.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/metadata.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/text.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/extract_fonts.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/fuzzy_paragraphs.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/version.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/rspec.rb.bz2
+>>> /usr/share/doc/pdf-reader-2.2.0/examples/extract_images.rb.bz2
+--- /usr/bin/
+>>> /usr/bin/pdf_callbacks
+>>> /usr/bin/pdf_object
+>>> /usr/bin/pdf_text
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/ttf" is an invalid MIME type ("font" is an unregistered media type)
+Error in file "usr/share/applications/org.gnome.font-viewer.desktop": "font/otf" is an invalid MIME type ("font" is an unregistered media type)
+ * QA Notice: .desktop files with MimeType= were found installed
+ * but desktop mimeinfo cache has not been updated:
+ *   /usr/share/applications/libreoffice-base.desktop
+ *   /usr/share/applications/libreoffice-writer.desktop
+ *   /usr/share/applications/libreoffice-draw.desktop
+ *   /usr/share/applications/libreoffice-startcenter.desktop
+ *   /usr/share/applications/libreoffice-impress.desktop
+ *   /usr/share/applications/libreoffice-calc.desktop
+ *   /usr/share/applications/libreoffice-math.desktop
+ *   /usr/share/applications/libreoffice-xsltfilter.desktop
+ * Please make sure to call xdg_desktop_database_update()
+ * in pkg_postinst() and pkg_postrm() phases of appropriate pkgs.
+>>> dev-ruby/pdf-reader-2.2.0 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Recording dev-ruby/pdf-reader in "world" favorites file...
+>>> Auto-cleaning packages...
+
+>>> No outdated packages were found on your system.
+
+ * GNU info directory index is up-to-date.
+
+ * IMPORTANT: 7 config files in '/etc' need updating.
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+

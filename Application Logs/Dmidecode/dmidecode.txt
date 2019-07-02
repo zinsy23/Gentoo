@@ -1,0 +1,106 @@
+
+ * IMPORTANT: 17 config files in '/etc/portage' need updating.
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+.... done!
+[ebuild  N     ] sys-apps/dmidecode-3.2::gentoo  USE="(-selinux)" 0 KiB
+
+Total: 1 package (1 new), Size of downloads: 0 KiB
+
+Would you like to merge these packages? [Yes/No] 
+>>> Verifying ebuild manifests
+
+>>> Emerging (1 of 1) sys-apps/dmidecode-3.2::gentoo
+ * dmidecode-3.2.tar.xz BLAKE2B SHA512 size ;-) ...                      [ ok ]
+>>> Unpacking source...
+>>> Unpacking dmidecode-3.2.tar.xz to /var/tmp/portage/sys-apps/dmidecode-3.2/work
+>>> Source unpacked in /var/tmp/portage/sys-apps/dmidecode-3.2/work
+>>> Preparing source in /var/tmp/portage/sys-apps/dmidecode-3.2/work/dmidecode-3.2 ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/sys-apps/dmidecode-3.2/work/dmidecode-3.2 ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/sys-apps/dmidecode-3.2/work/dmidecode-3.2 ...
+make -j2 'CFLAGS=-march=native -O2 -pipe ' 'LDFLAGS=-Wl,-O1 -Wl,--as-needed' CC=x86_64-pc-linux-gnu-gcc 
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c dmidecode.c -o dmidecode.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c dmiopt.c -o dmiopt.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c dmioem.c -o dmioem.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c util.c -o util.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c biosdecode.c -o biosdecode.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c ownership.c -o ownership.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c vpddecode.c -o vpddecode.o
+x86_64-pc-linux-gnu-gcc -march=native -O2 -pipe  -c vpdopt.c -o vpdopt.o
+x86_64-pc-linux-gnu-gcc -Wl,-O1 -Wl,--as-needed biosdecode.o util.o -o biosdecode
+x86_64-pc-linux-gnu-gcc -Wl,-O1 -Wl,--as-needed ownership.o util.o -o ownership
+x86_64-pc-linux-gnu-gcc -Wl,-O1 -Wl,--as-needed vpddecode.o vpdopt.o util.o -o vpddecode
+x86_64-pc-linux-gnu-gcc -Wl,-O1 -Wl,--as-needed dmidecode.o dmiopt.o dmioem.o util.o -o dmidecode
+>>> Source compiled.
+>>> Test phase [not enabled]: sys-apps/dmidecode-3.2
+
+>>> Install dmidecode-3.2 into /var/tmp/portage/sys-apps/dmidecode-3.2/image/ category sys-apps
+make -j2 DESTDIR=/var/tmp/portage/sys-apps/dmidecode-3.2/image/ install 
+install -m 755 -d /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/sbin
+install -m 755 -d /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/share/man/man8
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 755 $program /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/sbin ; done
+for program in dmidecode biosdecode ownership vpddecode ; do \
+install -m 644 man/$program.8 /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/share/man/man8 ; done
+install -m 755 -d /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/share/doc/dmidecode-3.2
+install -m 644 README /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/share/doc/dmidecode-3.2
+install -m 644 NEWS /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/share/doc/dmidecode-3.2
+install -m 644 AUTHORS /var/tmp/portage/sys-apps/dmidecode-3.2/image//usr/share/doc/dmidecode-3.2
+>>> Completed installing dmidecode-3.2 into /var/tmp/portage/sys-apps/dmidecode-3.2/image/
+
+ * Final size of build directory: 784 KiB
+ * Final size of installed tree:  284 KiB
+
+strip: x86_64-pc-linux-gnu-strip --strip-unneeded -R .comment -R .GCC.command.line -R .note.gnu.gold-version
+   usr/sbin/biosdecode
+   usr/sbin/dmidecode
+   usr/sbin/ownership
+   usr/sbin/vpddecode
+
+>>> Installing (1 of 1) sys-apps/dmidecode-3.2::gentoo
+ * checking 11 files for package collisions
+>>> Merging sys-apps/dmidecode-3.2 to /
+--- /usr/
+--- /usr/sbin/
+>>> /usr/sbin/biosdecode
+>>> /usr/sbin/vpddecode
+>>> /usr/sbin/ownership
+>>> /usr/sbin/dmidecode
+--- /usr/share/
+--- /usr/share/doc/
+>>> /usr/share/doc/dmidecode-3.2/
+>>> /usr/share/doc/dmidecode-3.2/README.bz2
+>>> /usr/share/doc/dmidecode-3.2/AUTHORS.bz2
+>>> /usr/share/doc/dmidecode-3.2/NEWS.bz2
+--- /usr/share/man/
+--- /usr/share/man/man8/
+>>> /usr/share/man/man8/vpddecode.8.bz2
+>>> /usr/share/man/man8/ownership.8.bz2
+>>> /usr/share/man/man8/biosdecode.8.bz2
+>>> /usr/share/man/man8/dmidecode.8.bz2
+>>> sys-apps/dmidecode-3.2 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Recording sys-apps/dmidecode in "world" favorites file...
+>>> Auto-cleaning packages...
+
+>>> No outdated packages were found on your system.
+
+ * GNU info directory index is up-to-date.
+
+ * IMPORTANT: 17 config files in '/etc' need updating.
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+

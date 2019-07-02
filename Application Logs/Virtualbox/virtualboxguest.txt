@@ -1,0 +1,62 @@
+
+ * IMPORTANT: 21 config files in '/etc/portage' need updating.
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  
+ * IMPORTANT: 10 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+... done!
+[ebuild  N     ] app-emulation/virtualbox-additions-5.2.26::gentoo  0 KiB
+
+Total: 1 package (1 new), Size of downloads: 0 KiB
+
+Would you like to merge these packages? [Yes/No] 
+>>> Verifying ebuild manifests
+
+>>> Emerging (1 of 1) app-emulation/virtualbox-additions-5.2.26::gentoo
+ * VBoxGuestAdditions_5.2.26.iso BLAKE2B SHA512 size ;-) ...             [ ok ]
+>>> Unpacking source...
+>>> Source unpacked in /var/tmp/portage/app-emulation/virtualbox-additions-5.2.26/work
+>>> Preparing source in /var/tmp/portage/app-emulation/virtualbox-additions-5.2.26/work ...
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/app-emulation/virtualbox-additions-5.2.26/work ...
+>>> Source configured.
+>>> Compiling source in /var/tmp/portage/app-emulation/virtualbox-additions-5.2.26/work ...
+>>> Source compiled.
+>>> Test phase [not enabled]: app-emulation/virtualbox-additions-5.2.26
+
+>>> Install virtualbox-additions-5.2.26 into /var/tmp/portage/app-emulation/virtualbox-additions-5.2.26/image category app-emulation
+>>> Completed installing virtualbox-additions-5.2.26 into /var/tmp/portage/app-emulation/virtualbox-additions-5.2.26/image
+
+ * Final size of build directory:     4 KiB
+ * Final size of installed tree:  57080 KiB (55.7 MiB)
+
+
+>>> Installing (1 of 1) app-emulation/virtualbox-additions-5.2.26::gentoo
+ * checking 1 files for package collisions
+>>> Merging app-emulation/virtualbox-additions-5.2.26 to /
+--- /usr/
+--- /usr/share/
+--- /usr/share/virtualbox/
+>>> /usr/share/virtualbox/VBoxGuestAdditions.iso
+>>> app-emulation/virtualbox-additions-5.2.26 merged.
+>>> Regenerating /etc/ld.so.cache...
+
+>>> Recording app-emulation/virtualbox-additions in "world" favorites file...
+>>> Auto-cleaning packages...
+
+>>> No outdated packages were found on your system.
+
+ * GNU info directory index is up-to-date.
+
+ * IMPORTANT: 22 config files in '/etc' need updating.
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+
+ * IMPORTANT: 10 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
