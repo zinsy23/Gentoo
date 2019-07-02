@@ -1,0 +1,9 @@
+
+ * IMPORTANT: 17 config files in '/etc/portage' need updating.
+ * See the CONFIGURATION FILES and CONFIGURATION FILES UPDATE TOOLS
+ * sections of the emerge man page to learn how to update config files.
+[ebuild  N    ] dev-util/electron-2.0.17-r1  USE="cups gnome-keyring proprietary-codecs pulseaudio system-ffmpeg system-ssl tcmalloc -custom-cflags -gconf -kerberos -lto (-neon) -pic (-selinux) -test" L10N="am ar bg bn ca cs da de el en-GB es es-419 et fa fi fil fr gu he hi hr hu id it ja kn ko lt lv ml mr ms nb nl pl pt-BR pt-PT ro ru sk sl sr sv sw ta te th tr uk vi zh-CN zh-TW" 
+
+ * IMPORTANT: 9 news items need reading for repository 'gentoo'.
+ * Use eselect news read to view new items.
+
